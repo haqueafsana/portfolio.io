@@ -1,0 +1,100 @@
+
+body, ul, li {
+    list-style: none;
+}
+
+
+header {
+    background-color: #3d9970; 
+    color: #fff;
+}
+
+body {
+  background-color: #8FBC8B; /* Light brown */
+  color: white;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+main {
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.onichan{
+  display:flex;
+  justify-content: center;
+  
+}
+.afsana {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  float: left;
+  justify-content: center;
+}
+
+.afsana1{  
+position: relative;
+  width:300px;
+  height:300px;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 5px ridge #600b0b;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.resume {
+  border: 5px solid #913030;
+  padding: 5px;
+}
+
+.image-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.image {
+    width: 30%; /* Adjust the width as needed */
+    margin: 10px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.image img:hover {
+    transform: scale(1.1);
+}
